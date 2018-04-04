@@ -1,3 +1,5 @@
+/* CSS général */
+
 html {
     
     height: 100%;
@@ -15,14 +17,15 @@ body {
 }
 
 
+/*CSS menu */
 
 .container {
     
     display: grid;
     grid-template-columns: 500px auto 700px;
-    grid-template-rows: 150px;
+    grid-template-rows: 100px;
     padding-bottom: 0px;
-        
+       
 }
 
 .logo img {
@@ -48,11 +51,34 @@ body {
 
 }
 
+.buttons {
+    display: flex;
+    margin: auto;
+        
+}
+
+.buttons a {
+    background: #098df2;
+    border: #098df2 solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    text-decoration:none;
+}
+
+
+/* CSS pour la section */
+
 .presentation {
     
     text-align: justify;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 100px;
 }
 
 .presentation h1{
@@ -72,13 +98,7 @@ body {
     
 }
 
-hr {
-  clear: both;
-  margin-top: @space;
-  margin-bottom: @space;
-  border: 0;
-  border-top: 1px solid @gray-light;
-}
+/* CSS pour footer */
 
 footer {
     
