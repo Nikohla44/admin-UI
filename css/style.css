@@ -1,5 +1,8 @@
 body {
-    background-image: url(image)
+    background-image: url("../images/marvin-meyer-571072-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
 }
 
 
