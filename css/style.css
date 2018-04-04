@@ -44,21 +44,26 @@ body {
 
 .presentation {
     
-    text-align: center;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .presentation h1{
     
     font-family: "Merriweather", arial, sans-serif;
     font-size: 5em;
+    text-align: center;
     color: #e53109;
 }
 
 .presentation p{
     
     font-family: "Asar", arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
+    text-align: center;
     color: #ffffff;
+    
 }
 
 footer {
