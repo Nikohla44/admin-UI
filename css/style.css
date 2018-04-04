@@ -10,8 +10,8 @@ body {
 .container {
     
     display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: 150px;
+    grid-template-columns: 500px auto 500px;
+    grid-template-rows: 200px;
     
 }
 
@@ -23,6 +23,31 @@ body {
 }
 
 .menu ul {
+    
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    position: relative;
     list-style: none;
     text-align: center;
+
+}
+
+.presentation {
+    
+    text-align: center;
+}
+
+.presentation h1{
+    
+    font-family: "Merriweather", arial, sans-serif;
+    font-size: 5em;
+    color: #e53109;
+}
+
+.presentation p{
+    
+    font-family: "Asar", arial, sans-serif;
+    font-size: 2em;
+    color: #ffffff;
 }
