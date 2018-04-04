@@ -19,9 +19,10 @@ body {
 .container {
     
     display: grid;
-    grid-template-columns: 500px auto 500px;
-    grid-template-rows: 200px;
-    
+    grid-template-columns: 500px auto 700px;
+    grid-template-rows: 150px;
+    padding-bottom: 0px;
+        
 }
 
 .logo img {
@@ -33,12 +34,17 @@ body {
 
 .menu ul {
     
+    font-family: "Fjalla+One", Arial, sans-serif;
     display: flex;
     align-content: center;
     justify-content: space-around;
     position: relative;
     list-style: none;
     text-align: center;
+    color: #993300;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
 
 }
 
@@ -66,6 +72,14 @@ body {
     
 }
 
+hr {
+  clear: both;
+  margin-top: @space;
+  margin-bottom: @space;
+  border: 0;
+  border-top: 1px solid @gray-light;
+}
+
 footer {
     
     position: absolute;
@@ -74,7 +88,7 @@ footer {
     padding-top: 50px;
     height: 50px;
     text-align: center;
-    color: rgba (15, 14, 14, 0.9);
+    background-color:rgba(15, 14, 14, 0.5);
 }
 
 #footer-p {
