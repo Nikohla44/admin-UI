@@ -22,9 +22,10 @@ body {
 .container {
     
     display: grid;
-    grid-template-columns: 500px auto 700px;
+    grid-template-columns: 500px auto 500px;
     grid-template-rows: 100px;
     padding-bottom: 0px;
+    background-color:rgba(214, 203, 203, 0.5);
        
 }
 
@@ -32,14 +33,16 @@ body {
     
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 
 }
 
 .menu ul {
     
     font-family: "Fjalla+One", Arial, sans-serif;
-    display: flex;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 20px;
     justify-content: space-around;
     position: relative;
     list-style: none;
@@ -52,18 +55,22 @@ body {
 }
 
 .buttons {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
     margin: auto;
+    grid-gap: 20%;
         
 }
 
 .buttons a {
+    font-family: "Fira+Sans", Arial, sans-serif;
     background: #098df2;
     border: #098df2 solid 1px;
     border-radius: 10px;
     color: #fff;
     display: inline-block;
-    width:150px;
+    width:90px;
     line-height:50px;
     text-align:center;
     vertical-align:middle;
@@ -87,6 +94,7 @@ body {
     font-size: 5em;
     text-align: center;
     color: #e53109;
+    text-shadow: 3px 3px 4px black;
 }
 
 .presentation p{
@@ -95,6 +103,7 @@ body {
     font-size: 1.7em;
     text-align: center;
     color: #ffffff;
+    text-shadow: 1px 1px 2px black;
     
 }
 
