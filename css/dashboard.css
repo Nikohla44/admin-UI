@@ -55,50 +55,6 @@ body {
 
 }
 
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-    grid-gap: 20%;
-
-}
-
-.buttons a {
-    font-family: "Fira+Sans", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    background: #098df2;
-    border: #098df2 solid 1px;
-    border-radius: 10px;
-    color: #fff;
-    display: inline-block;
-    width:90px;
-    line-height:50px;
-    text-align:center;
-    vertical-align:middle;
-    text-decoration:none;
-}
-
-.sign-up {
-    border: none;
-    background: #098df2;
-    border: #098df2 solid 1px;
-    border-radius: 10px;
-    color: #fff;
-    -webkit-appearance: none;
-}
-
-.log-in {
-    border: none;
-    background: #098df2;
-    border: #098df2 solid 1px;
-    border-radius: 10px;
-    color: #fff;
-    -webkit-appearance: none;
-}
-
-
-
 /* CSS pour footer */
 
 footer {
