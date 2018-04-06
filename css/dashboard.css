@@ -48,13 +48,7 @@ body {
 }
 
 /* CSS pur chart JS */
-#container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: auto;
-  grid-gap: 20%;
 
-}
 
 
 /* CSS pour footer */
