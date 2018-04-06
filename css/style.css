@@ -27,7 +27,11 @@ body {
     padding-bottom: 0px;
     background-color:rgba(214, 203, 203, 0.5);
     position: fixed;
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 }
 
 .logo img {
@@ -60,7 +64,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     grid-gap: 20%;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 }
 
 .buttons a {
@@ -127,6 +135,7 @@ body {
     box-shadow: 0px 0px 50px 5px black;
 }
 
+<<<<<<< HEAD
 .btnRegister {
     color: #ff9900;
     font-size: 20px;
@@ -134,6 +143,8 @@ body {
     text-align: center;
 }
 
+=======
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 .modalLogin {
     width: 550px;
     height: 600px;
@@ -149,6 +160,7 @@ body {
     box-shadow: 0px 0px 50px 5px black;
 }
 
+<<<<<<< HEAD
 .btnConnexion {
     color: #ff9900;
     font-size: 20px;
@@ -178,6 +190,8 @@ body {
   text-align: center;
 }
 
+=======
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 
 .modal-heading {
     width: 100%;
@@ -210,9 +224,25 @@ input {
     text-align: center;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+.btnRegister {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btnConnexion {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 
 .close {
     position: absolute;
@@ -252,13 +282,21 @@ input {
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
 }
 
 /* CSS pour footer */
 
 footer {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ddf7f8cc1605f71b7d470e652b8026bf42e1e54a
     position: fixed;
     bottom: 0;
     width: 100%;
