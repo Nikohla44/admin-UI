@@ -1,7 +1,7 @@
 /* =============CSS général ================*/
 
 html {
-    
+
     height: 100%;
 }
 
@@ -13,25 +13,25 @@ body {
     background-image: url("../images/marvin-meyer-571072-unsplash.jpg");
     background-size: 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
 }
 
 
 /*CSS menu */
 
 .container {
-    
+
     display: grid;
     grid-template-columns: 500px auto 700px;
     grid-template-rows: 100px;
     padding-bottom: 0px;
     background-color:rgba(214, 203, 203, 0.5);
     position: fixed;
-       
+
 }
 
 .logo img {
-    
+
     width: 80px;
     height: 80px;
     padding-top: 10px;
@@ -39,7 +39,7 @@ body {
 }
 
 .menu ul {
-    
+
     font-family: "Fjalla+One", Arial, sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -60,7 +60,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     grid-gap: 20%;
-        
+
 }
 
 .buttons a {
@@ -106,6 +106,7 @@ body {
     position: absolute;
     transition: all 500ms ease;
     background: rgba(2, 70, 88, 0.5);
+    border-radius: 10px;
 }
 
 .modal-container:target{
@@ -127,6 +128,15 @@ body {
     box-shadow: 0px 0px 50px 5px black;
 }
 
+
+.btnRegister {
+    color: #ff9900;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 .modalLogin {
     width: 550px;
     height: 600px;
@@ -140,6 +150,36 @@ body {
     border: 2px solid #222;
     padding: 20px;
     box-shadow: 0px 0px 50px 5px black;
+}
+
+
+.btnConnexion {
+    color: #ff9900;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modalPassword {
+  width: 550px;
+  height: 600px;
+  margin: auto;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: white;
+  border: 2px solid #222;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 5px black;
+}
+
+.btnEnvoyer {
+  color: #ff9900;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 
@@ -174,6 +214,7 @@ input {
     text-align: center;
 }
 
+
 .btnRegister {
     color: white;
     font-size: 20px;
@@ -187,6 +228,7 @@ input {
     margin-top: 10px;
     text-align: center;
 }
+
 
 .close {
     position: absolute;
@@ -203,7 +245,7 @@ input {
 /* CSS pour la section */
 
 .presentation {
-    
+
     text-align: justify;
     padding-left: 120px;
     padding-right: 120px;
@@ -211,7 +253,7 @@ input {
 }
 
 .presentation h1{
-    
+
     font-family: "Merriweather", arial, sans-serif;
     font-size: 4em;
     text-align: center;
@@ -220,19 +262,18 @@ input {
 }
 
 .presentation p{
-    
+
     font-family: "Asar", arial, sans-serif;
     font-size: 1.7em;
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
-    
+
 }
 
 /* CSS pour footer */
 
 footer {
-    
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -243,7 +284,7 @@ footer {
 }
 
 #footer-p {
-    
+
     font-family: "Ubuntu", Arial, sans-serif;
     font-size: 1.3em;
     color: #f9f9f9;
