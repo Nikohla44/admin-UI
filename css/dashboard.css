@@ -1,0 +1,119 @@
+/* =============CSS général ================*/
+
+html {
+
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #F5F5DC;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/*CSS menu */
+
+.container {
+
+    display: grid;
+    grid-template-columns: 500px auto 700px;
+    grid-template-rows: 100px;
+    padding-bottom: 0px;
+    background-color:rgba(214, 203, 203, 0.5);
+    position: fixed;
+
+}
+
+.logo img {
+
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+
+}
+
+.menu ul {
+
+    font-family: "Fjalla+One", Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 20px;
+    justify-content: space-around;
+    position: relative;
+    list-style: none;
+    text-align: center;
+    color: #993300;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    grid-gap: 20%;
+
+}
+
+.buttons a {
+    font-family: "Fira+Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #098df2;
+    border: #098df2 solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    width:90px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    text-decoration:none;
+}
+
+.sign-up {
+    border: none;
+    background: #098df2;
+    border: #098df2 solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-appearance: none;
+}
+
+.log-in {
+    border: none;
+    background: #098df2;
+    border: #098df2 solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-appearance: none;
+}
+
+
+
+/* CSS pour footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+    text-align: center;
+    background-color:rgba(15, 14, 14, 0.5);
+}
+
+#footer-p {
+
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 1.3em;
+    color: #f9f9f9;
+}
