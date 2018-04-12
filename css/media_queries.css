@@ -1,0 +1,26 @@
+/* ========= Media Queries =========*/
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px auto 300px;
+    grid-template-rows: 100px;
+    padding-bottom: 0px;
+    position: fixed;
+  }
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100px auto 200px;
+    grid-template-rows: 100px;
+    padding-bottom: 0px;
+    position: fixed;
+  }
+}
+
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
