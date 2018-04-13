@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/*CSS menu */
+/*==========CSS menu ==========*/
 
 .container {
   display: grid;
@@ -60,7 +60,7 @@ body {
   color: #993300;
 }
 
-/* CSS pour footer */
+/*========= CSS pour footer =========*/
 
 footer {
   position: fixed;

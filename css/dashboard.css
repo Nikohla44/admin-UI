@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/*CSS menu */
+/*========== CSS menu ==========*/
 
 .container {
   display: grid;
@@ -61,7 +61,21 @@ body {
   color: #993300;
 }
 
-/* CSS pur chart JS */
+.user_logo {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.user_logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #343434;
+  background-color: #F5F5DC;
+}
+
+/*========== CSS pur chart JS =========*/
 
 .chartContainer {
   display: flex;
@@ -69,7 +83,7 @@ body {
   justify-content: space-between;
 }
 
-/* CSS pour footer */
+/*========= CSS pour footer ==========*/
 
 footer {
   position: fixed;
