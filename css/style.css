@@ -1,4 +1,4 @@
-/* =============CSS général ================*/
+/* ============= CSS général ================*/
 
 html {
   height: 100%;
@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/*CSS menu */
+/* ============ CSS menu =========== */
 
 .container {
   display: grid;
@@ -50,7 +50,6 @@ body {
 .menu a {
   text-decoration: none;
   color: #993300;
-
 }
 
 .menu a:hover {
@@ -233,7 +232,7 @@ input {
   transition: background 500ms;
 }
 
-/* CSS pour la section */
+/*============ CSS pour la section =============*/
 
 .presentation {
   text-align: justify;
@@ -267,7 +266,7 @@ input {
   color: #13840b;
 }
 
-/* CSS pour footer */
+/*========== CSS pour footer ==========*/
 
 footer {
   position: fixed;
