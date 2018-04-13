@@ -45,7 +45,20 @@ body {
   color: #993300;
   font-size: 1.2em;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-shadow: 2px 2px 3px grey;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #993300;
+}
+
+.menu a:hover {
+  color: #13840b;
+}
+
+.menu a:active {
+  color: #993300;
 }
 
 /* CSS pur chart JS */

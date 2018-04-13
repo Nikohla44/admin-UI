@@ -47,7 +47,7 @@ body {
   text-shadow: 2px 2px 3px grey;
 }
 
-.menu a:link {
+.menu a {
   text-decoration: none;
   color: #993300;
 }
@@ -56,31 +56,8 @@ body {
   color: #13840b;
 }
 
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: auto;
-  grid-gap: 20%;
-}
-
-.buttons a {
-  font-family: "Fira+Sans", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  background: #098df2;
-  border: #098df2 solid 1px;
-  border-radius: 10px;
-  color: #fff;
-  display: inline-block;
-  width: 90px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-.buttons a:hover {
-  background-color: #f36a10;
+.menu a:active {
+  color: #993300;
 }
 
 /* CSS pour footer */

@@ -47,13 +47,18 @@ body {
   text-shadow: 2px 2px 3px grey;
 }
 
-.menu a:link {
+.menu a {
   text-decoration: none;
   color: #993300;
+
 }
 
 .menu a:hover {
   color: #13840b;
+}
+
+.menu a:active {
+  color: #993300;
 }
 
 .buttons {
@@ -81,6 +86,7 @@ body {
 
 .buttons a:hover {
   background-color: #f36a10;
+  border: #f36a10;
 }
 
 .sign-up {
