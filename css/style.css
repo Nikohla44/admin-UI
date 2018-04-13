@@ -44,7 +44,16 @@ body {
   color: #993300;
   font-size: 1.2em;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-shadow: 2px 2px 3px grey;
+}
+
+.menu a:link {
+  text-decoration: none;
+  color: #993300;
+}
+
+.menu a:hover {
+  color: #13840b;
 }
 
 .buttons {
@@ -68,6 +77,10 @@ body {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
+}
+
+.buttons a:hover {
+  background-color: #f36a10;
 }
 
 .sign-up {
@@ -120,10 +133,11 @@ body {
 }
 
 .btnRegister {
-  color: #ff9900;
+  color: #fff;
   font-size: 20px;
   margin-top: 10px;
   text-align: center;
+  background-color: #f36a10;
 }
 
 .modalLogin {
@@ -142,10 +156,11 @@ body {
 }
 
 .btnConnexion {
-  color: #ff9900;
+  color: #fff;
   font-size: 20px;
   margin-top: 10px;
   text-align: center;
+  background-color: #f36a10;
 }
 
 .modalPassword {
@@ -164,10 +179,11 @@ body {
 }
 
 .btnEnvoyer {
-  color: #ff9900;
+  color: #fff;
   font-size: 20px;
   margin-top: 10px;
   text-align: center;
+  background-color: #f36a10;
 }
 
 .modal-heading {
@@ -197,20 +213,6 @@ input {
   border-radius: 5px;
   font-family: georgia, Arial, sans-serif;
   font-size: 14px;
-  text-align: center;
-}
-
-.btnRegister {
-  color: white;
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.btnConnexion {
-  color: white;
-  font-size: 20px;
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -247,7 +249,16 @@ input {
   font-size: 1.7em;
   text-align: center;
   color: #ffffff;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 3px 3px 4px black;;
+}
+
+.presentation p a:link {
+  text-decoration: none;
+  color: #e53109;
+}
+
+.presentation p a:hover {
+  color: #13840b;
 }
 
 /* CSS pour footer */

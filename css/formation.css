@@ -21,7 +21,6 @@ body {
   display: grid;
   grid-template-columns: 500px auto 700px;
   grid-template-rows: 100px;
-  top: 0px;
   padding-bottom: 0px;
   background-color: rgba(214, 203, 203, 0.5);
   position: fixed;
@@ -45,15 +44,43 @@ body {
   color: #993300;
   font-size: 1.2em;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-shadow: 2px 2px 3px grey;
 }
 
-/* CSS pur chart JS */
+.menu a:link {
+  text-decoration: none;
+  color: #993300;
+}
 
-.chartContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.menu a:hover {
+  color: #13840b;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  grid-gap: 20%;
+}
+
+.buttons a {
+  font-family: "Fira+Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background: #098df2;
+  border: #098df2 solid 1px;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  width: 90px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  background-color: #f36a10;
 }
 
 /* CSS pour footer */
