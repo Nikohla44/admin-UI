@@ -10,6 +10,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
@@ -21,15 +22,15 @@
     <!-- Header -->
     <header>
 
-      <div class="container">
+      <div class="headerContainer container">
 
-        <div class="logo">
+        <div class="logo col-1">
 
-          <img src="images/noun_974857_cc.png" alt="logo">
+          <a href="index.html"><img src="images/noun_974857_cc.png" alt="logo"></a>
 
         </div>
 
-        <div class="menu">
+        <div class="menu col-6">
 
           <ul>
             <li><a href="formation.html">Formation</a></li>
@@ -40,28 +41,35 @@
 
         </div>
 
-        <div class="user_logo">
+        <div class="user_logo col-1">
 
           <img src="images/social.png" alt="user_logo">
 
         </div>
+
+      </div>
+
 
     </header>
 
     <!-- Chart JS -->
     <section>
 
-      <div class="chartContainer">
+      <div class="chartContainer container">
 
-          <div class="myChartContainer" style="position: relative; height:20vh; width:40vw; margin-top:160px">
+          <div class="myChartContainer col-4" style="position: relative; height:20vh; width:40vw;">
             <canvas id="myChart"></canvas>
           </div>
 
-          <div class="myChartRadarContainer" style="position: relative; height:20vh; width:40vw; margin-top:160px">
+          <div class="myChartRadarContainer col-4" style="position: relative; height:20vh; width:40vw;">
             <canvas id="myChartRadar"></canvas>
           </div>
 
-          <div class="myChartDoughnutContainer" style="position: relative; height:20vh; width:30vw; margin-top:160px">
+      </div>
+
+      <div class="chartContainer container">
+
+          <div class="myChartDoughnutContainer col-8" style="position: relative; height:20vh; width:30vw;margin-top: 200px;">
             <canvas id="myChartDoughnut"></canvas>
           </div>
 
@@ -69,10 +77,14 @@
 
     </section >
 
-    <!-- Footer -->
-    <footer>
+    <!-- footer -->
+    <footer class="container">
 
-      <p id="footer-p">Copyrights &copy; Nikoh 2018</p>
+      <div class="col-8">
+
+        <p id="footer-p">Copyrights &copy; Nikoh 2018</p>
+
+      </div>
 
     </footer>
 

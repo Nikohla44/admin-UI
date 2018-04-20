@@ -1,4 +1,8 @@
 /* =============CSS général ================*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   height: 100%;
@@ -18,12 +22,10 @@ body {
 /*==========CSS menu ==========*/
 
 .headerContainer {
-  display: grid;
-  grid-template-columns: 500px auto 700px;
-  grid-template-rows: 100px;
+  width: 100%;
+  height: 100px;
   padding-bottom: 0px;
   background-color: rgba(214, 203, 203, 0.5);
-  position: fixed;
 }
 
 .logo img {
@@ -34,17 +36,18 @@ body {
 
 .menu ul {
   font-family: "Fjalla+One", Arial, sans-serif;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding-top: 20px;
-  justify-content: space-around;
-  position: relative;
   list-style: none;
   text-align: center;
+  padding-top: 40px;
   color: #993300;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-transform: uppercase;
   text-shadow: 2px 2px 3px grey;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 30px;
 }
 
 .menu a {
@@ -60,15 +63,9 @@ body {
   color: #993300;
 }
 
-.user_logo {
-  text-align: right;
-  padding-right: 100px;
-}
-
 .user_logo img {
   width: 50px;
   height: 50px;
-  position: absolute;
   margin-top: 20px;
   border-radius: 50px;
   box-shadow: 0px 0px 10px #343434;
@@ -85,7 +82,8 @@ body {
   justify-items: stretch;
   align-items: center;
   padding-top: 200px;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .description {
@@ -93,12 +91,12 @@ body {
 }
 
 article {
-  width: 350px;
-  height: 550px;
+  width: 370px;
+  height: 490px;
   text-align: center;
   background-color: #EEEBCC;
   border: 2px solid black;
-  padding: 30px;
+  padding: 40px;
   box-shadow: 1px 1px 25px 2px black;
 }
 
@@ -121,6 +119,7 @@ p {
   border-radius: 10px;
   color: #fff;
   display: inline-block;
+  margin-bottom: 30px;
   width: 100px;
   line-height: 50px;
   text-align: center;
@@ -134,10 +133,8 @@ p {
 }
 
 
-/*========= CSS pour footer =========*/
-
+/*=========== Footer ==========*/
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   padding-top: 50px;
