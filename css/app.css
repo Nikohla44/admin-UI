@@ -1,0 +1,381 @@
+/* =============CSS général ================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #F5F5DC;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/*==========CSS menu ==========*/
+
+.headerContainer {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 0px;
+  background-color: rgba(214, 203, 203, 0.5);
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.menu ul {
+  font-family: "Fjalla+One", Arial, sans-serif;
+  list-style: none;
+  text-align: center;
+  padding-top: 40px;
+  color: #993300;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px grey;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #993300;
+}
+
+.menu a:hover {
+  color: #13840b;
+}
+
+.menu a:active {
+  color: #993300;
+}
+
+.user_logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #343434;
+  background-color: #F5F5DC;
+}
+
+/*========== Section ==========*/
+
+
+/*==========CSS Clock ==========*/
+.clockSection {
+  height: 100px;
+}
+
+#clock {
+  font-family: Helvetica, arial;
+  text-align: center;
+  color: #141201;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+/*============Slider ===========*/
+.sliderSection {
+  max-width: 1000px;
+  border-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img {
+  width: 958px;
+  height: 578px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.btn1  {
+  position: absolute;
+  top: 20%;
+  left: 370px;
+}
+
+#btn1 {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #F4A21C;
+  cursor: pointer;
+}
+
+.btn2  {
+  position: absolute;
+  top: 20%;
+  right: 370px;
+}
+
+#btn2 {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #F4A21C;
+  cursor: pointer;
+}
+
+/*============ Calculator ===========*/
+.calculatorSection input {
+  width: 150px;
+  height: 100px;
+  font-size: 75px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fff;
+  color: #000;
+  border-style: none;
+}
+
+#myForm {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#inputDisplay {
+  width: 675px;
+  height: 100px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+#inputOperator {
+  background-color: #F49C0C;
+}
+
+/*============ Addition Game ===========*/
+#gameSection {
+  margin-top: 120px;
+}
+
+table {
+  width: 400px;
+  height: 300px;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+#number1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  border: 5px solid #000;
+  background-color: #000;
+  padding: 50px;
+}
+
+.operateur {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#number2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  border: 5px solid #000;
+  background-color: #000;
+  padding: 50px;
+}
+
+#response {
+  padding: 10px;
+  border: 2px solid #F4A21C;
+}
+
+#additionGameBtn {
+  background-color: #F4A21C;
+  color: #fff;
+  padding: 12px;
+  border-style: none;
+  font-weight: bold;
+  width: 190px;
+}
+
+/*============ Word Count ===========*/
+.wordCount Input {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 250px;
+  height: 40px;
+  padding-left: 395px;
+}
+
+#output {
+  margin-top: 45px;
+  width: 100px;
+  background: black;
+  color: #fff;
+  margin-left: 400px;
+}
+
+#wordCountBtn {
+  width: 350px;
+  height: 80px;
+  color: #fff;
+  background-color: #F4A21C;
+  border-style: none;
+  border-radius: 15px;
+  margin-top: 80px;
+  margin-left: 175px;
+  margin-bottom: 150px;
+}
+
+/*============ Tdo List ===========*/
+#add {
+  background-color: #F4A21C;
+  border: 0;
+  color: white;
+  padding: 10px 10px;
+  padding-right: 40px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.remove {
+  margin-left: 13px;
+  background-color: #e20b0b;
+  float: right;
+  clear: both;
+  padding-right: 20px;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  border-style: none;
+  margin-top: auto;
+  margin: 10px;
+  color: #fff;
+}
+
+#toDoListSection {
+  width: 450px;
+  background-color: #000;
+  margin-top: 120px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 65px;
+  border-radius: 25px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  line-height: 35px;
+  color: #fff;
+}
+
+#task {
+  width: 320px;
+  height: 30px;
+  margin-left: 17px;
+}
+
+/*=========== Contact form ==========*/
+.formContainer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 500px;
+  padding: 15px 15px;
+  background: #000;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 6px 0 4px 16px;
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+}
+
+.formContainer input[type="text"], input[type="email"], textarea {
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+
+  width: 100%;
+  background-color: #e8eeef;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.formContainer button {
+  padding: 12px 22px 12px 22px;
+  color: #fff;
+  background-color:#F4A21C;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 30%;
+  border: 1px solid #a30000;
+  border-width: 1px 1px 3px;
+  border-style: none;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #08a3d9;
+  font-weight: bold;
+}
+
+#clear {
+  padding: 12px 22px 12px 22px;
+  color: #000;
+  background-color: #e20b0b;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 19%;
+  width: 30%;
+  border: 1px solid #a30000;
+  border-width: 1px 1px 3px;
+  border-style: none;
+}
+
+/*=========== Footer ==========*/
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-top: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(15, 14, 14, 0.5);
+}
+
+#footer-p {
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 1.3em;
+  color: #f9f9f9;
+}

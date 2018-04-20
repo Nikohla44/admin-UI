@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Projets</title>
+
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="css/app.css">
+      <link rel="stylesheet" type="text/css" href="css/grid.css">
+
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header>
+
+      <div class="headerContainer container">
+
+        <div class="logo col-1">
+
+          <img src="images/noun_974857_cc.png" alt="logo">
+
+        </div>
+
+        <div class="menu col-6">
+
+          <ul>
+            <li><a href="formation.html">Formation</a></li>
+            <li><a href="dashboard.html">Tableau de bord</a></li>
+            <li><a href="app.html">Projets</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div class="user_logo col-1">
+
+          <img src="images/social.png" alt="user_logo">
+
+        </div>
+
+      </div>
+
+
+    </header>
+
+    <section class="container">
+
+      <!-- Digital Clock -->
+      <div class="clockSection col-8">
+        <div id="clock"></div>
+      </div>
+
+    </section>
+
+    <section class="container">
+
+      <!-- Slider-->
+      <div class="sliderSection col-4">
+        <img class="mySlides" src="images/1.jpg">
+        <img class="mySlides" src="images/2.jpg">
+        <img class="mySlides" src="images/3.jpg">
+        <img class="mySlides" src="images/4.jpg">
+        <img class="mySlides" src="images/5.jpg">
+        <img class="mySlides" src="images/6.jpg">
+        <img class="mySlides" src="images/7.jpg">
+        <a class="btn1" onclick="plusDivs(-1)"><span id="btn1">&lt;</span></a>
+        <a class="btn2" onclick="plusDivs(1)"><span id="btn2">&gt;</span></a>
+    </div>
+
+  </section>
+
+  <section class="container">
+
+    <!-- Calculator -->
+    <div class="calculatorSection col-4">
+
+      <form id="myForm" name="calc">
+        <input id="inputDisplay" name="display"> <br/>
+        <input type=button value="0" onclick="calc.display.value += '0'">
+        <input type=button value="1" onclick="calc.display.value += '1'">
+        <input type=button value="2" onclick="calc.display.value += '2'">
+        <input id="inputOperator" type=button value="+" onclick="calc.display.value += '+'"> <br/>
+        <input type=button value="3" onclick="calc.display.value += '3'">
+        <input type=button value="4" onclick="calc.display.value += '4'">
+        <input type=button value="5" onclick="calc.display.value += '5'">
+        <input id="inputOperator" type=button value="-" onclick="calc.display.value += '-'"> <br/>
+        <input type=button value="6" onclick="calc.display.value += '6'">
+        <input type=button value="7" onclick="calc.display.value += '7'">
+        <input type=button value="8" onclick="calc.display.value += '8'">
+        <input id="inputOperator" type=button value="x" onclick="calc.display.value += '*'"> <br/>
+        <input type=button value="9" onclick="calc.display.value += '9'">
+        <input type=button value="C" onclick="calc.display.value = ''">
+        <input id="inputOperator" type=button value="=" onclick="calc.display.value = eval(calc.display.value)">
+        <input id="inputOperator" type=button value="&#247;" onclick="calc.display.value += '/'">
+      </form>
+
+    </div>
+
+    <!-- Addition Game -->
+    <div id="gameSection" class="col-4">
+
+      <table>
+        <tr>
+          <td>
+            <div id="number1">1</div>
+          </td>
+          <td>
+            <div class="operateur">+</div>
+          </td>
+          <td>
+            <div id="number2">2</div>
+          </td>
+          <td>
+            <div class="operateur">=</div>
+          </td>
+          <td>
+            <input type="text" id="response"></input>
+          </td>
+          <td>
+            <input id="additionGameBtn" type="button" value="check"></input>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+  </section>
+
+  <section class="container">
+
+    <!-- Word Count -->
+    <div class="col-4">
+
+      <div class="wordCount">
+
+        <input id="str" value="" type="text">
+        <div id="output"></div>
+        <button id="wordCountBtn"><h2>Click to calculate word length</h2></button>
+
+      </div>
+
+    </div>
+
+    <!-- Todo List -->
+    <div id="toDoListSection" class="col-4">
+
+      <input id="task"><button id="add">Add Task</button>
+      <!--<hr>-->
+      <div id="todos"></div>
+
+    </div>
+
+  </section>
+
+  <section class="container">
+
+    <!-- Contact form -->
+    <div class="formContainer col-8">
+
+      <form id="cf" action="" method="post">
+
+        <h1>Please Contact me </h1>
+
+        <fieldset>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="stored" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="stored" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="stored"></textarea>
+
+        </fieldset>
+
+        <button class="formBtn" type="submit">Send</button>
+        <input id="clear" type="reset" />
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- footer -->
+  <footer class="container">
+
+    <div class="col-8">
+
+      <p id="footer-p">Copyrights &copy; Nikoh 2018</p>
+
+    </div>
+
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  </body>
+
+</html>
